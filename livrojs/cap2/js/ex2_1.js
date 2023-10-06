@@ -10,7 +10,7 @@ function mostrarOla() {
 
 /*você está dizendo: "Encontre o elemento HTML que tem o ID 'mostrar' e guarde uma 
 referência para esse elemento na variável chamada 'mostrar'."*/
-var mostrar = document.getElementById("mostrar");
+let mostrar = document.getElementById("mostrar");
 /*você está dizendo: "Quando o elemento HTML que está na variável mostrar
 for clicado, execute a função mostrarOla."*/
 mostrar.addEventListener("click", mostrarOla);
